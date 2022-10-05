@@ -4,9 +4,13 @@
 
 Prerequisites:
 1 AWS CLI
+
 2 AWS Access Key ID.
+
 3 AWS Secret Access Key.
+
 4 Default region name.
+
 5 Default output format.
 
 After you've installed the AWS CLI, configure it by running aws configure.
