@@ -1,6 +1,6 @@
-## Repyute-Assignment
+# Repyute-Assignment
 
-# Terraform module to provision AWS EKS in new VPC
+## Terraform module to provision AWS EKS in new VPC
 
 Prerequisites:
 
@@ -21,13 +21,13 @@ When prompted, enter your AWS Access Key ID, Secret Access Key, region and outpu
 creating a new folder, and in that folder create a file named main.tf as provided.
 
 In the same folder, run:
-terraform init
+### terraform init
 The command will initialise Terraform and create two more folders as well as a state file.
 
 Next:
-terraform plan
+### terraform plan
 Terraform will perform a dry-run and will prompt you a detailed summary of what resources is about to create.
 
 Now finally
-terraform apply
+### terraform apply
 cluster is ready to be used.
